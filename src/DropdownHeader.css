@@ -1,0 +1,36 @@
+.header-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 45px;
+}
+
+.header-name {
+  margin-left: 50px;
+}
+
+.count-and-pic {
+  position: relative;
+  margin-right: 20px;
+}
+.count {
+  background-color: rgb(8, 6, 79);
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 50%;
+  font-size: larger;
+  border-right: 5px solid #fff;
+  position: absolute;
+  top: -21px;
+}
+
+.semi-pic1 {
+  height: 40px;
+  width: 40px;
+  background-color: rgb(105, 60, 60);
+  position: absolute;
+  top: -20px;
+  left: 15px;
+  border-radius: 50%;
+}

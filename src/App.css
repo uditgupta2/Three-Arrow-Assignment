@@ -1,38 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Montserrat:wght@300&display=swap");
+
+* {
+  font-family: "Montserrat";
+}
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
+  padding: 30px;
+}
+.btn {
+  padding: 10px 20px;
+  background-color: #ccdade;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+  font-weight: 700;
+  color: rgb(38, 35, 123);
 }
 
-.App-link {
-  color: #61dafb;
+.btn:hover {
+  color: rgb(38, 35, 123);
+  background-color: rgb(189, 220, 220);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dropdown-menu {
+  background-color: rgb(21, 21, 50);
+  border-radius: 10px;
+  width: 400px;
+}
+
+.dropdown-item {
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}
+
+.dropdown-item:hover {
+  background-color: rgb(37, 35, 84);
+  color: #fff;
+}
+
+.select-all-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 10px 0px;
+  align-items: center;
+}
+
+.user-container {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.user-data {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.form-check input {
+  width: 20px;
+  height: 20px;
+}
+.search-container {
+  width: 100%;
+  border-radius: 3px;
+  padding: 5px;
+}
+.search-container > input {
+  width: 100%;
+  padding: 15px 10px;
+  background-color: #123456;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+.search-container > input::placeholder {
+  color: rgb(147, 145, 205);
 }

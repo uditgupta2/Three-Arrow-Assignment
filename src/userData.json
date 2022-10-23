@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Steve Grant",
+    "img": "url",
+    "category": "assistant"
+  },
+  {
+    "name": "Mark Zuckerburg",
+    "img": "url",
+    "category": "assistant"
+  },
+  {
+    "name": "Elon Musk",
+    "img": "url",
+    "category": "assistant"
+  },
+  {
+    "name": "Donald Trump",
+    "img": "url",
+    "category ": "assistant"
+  },
+  {
+    "name": "Raj Gupta",
+    "img": "url",
+    "category": "practitioner"
+  },
+  {
+    "name": "Kamal Nayan",
+    "img": "url",
+    "category": "practitioner"
+  },
+  {
+    "name": "Aditya Mishra",
+    "img": "url",
+    "category": "practitioner"
+  }
+]
